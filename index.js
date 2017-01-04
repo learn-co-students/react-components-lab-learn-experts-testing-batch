@@ -5,9 +5,7 @@ const BUTCHER_PRODUCTS = [
   'Ribeye'
 ];
 
-
-
-const OlderCoaster = React.createClass({
+class OlderCoaster extends React.Component{
   render() {
     return React.createElement('div', {className: "oldercoaster"}, 
       [
@@ -20,7 +18,8 @@ const OlderCoaster = React.createClass({
           ])
       ]);
   }
-});
+}
+
 
 class InFrontOfYou extends React.Component {
   render() {
@@ -50,17 +49,6 @@ class ButcherShop extends React.Component {
   }
 }
 
-
-
-// <div class="butcher-shop">
-//   <p>Hello! We have the following products for sale today:</p>
-//   <ul>
-//     <li>Tenderloin</li>
-//     <li>Short ribs</li>
-//     <li>Beef shin</li>
-//     <li>Ribeye</li>
-//   </ul>
-// </div>
 
 ReactDOM.render(
   React.createElement('div', {}, [
