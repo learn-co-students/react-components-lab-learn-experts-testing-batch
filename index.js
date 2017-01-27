@@ -1,4 +1,4 @@
-var OlderCoaster = React.createClass({
+const OlderCoaster = React.createClass({
   render() {
     return React.createElement('div', { className: 'oldercoaster' }, [
       React.createElement('p', {}, 'Two grannies having the time of their life!'),
