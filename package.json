@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Test your understanding of React components",
   "engines": {
-    "node": "6.x",
+    "node": "7.x",
     "npm": "3.x"
   },
   "main": "index.js",
